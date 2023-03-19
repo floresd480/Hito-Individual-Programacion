@@ -1,0 +1,58 @@
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+.footer0{
+background:#333;
+padding:10px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer0 .row1{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer0 .row1 a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer0 .row1 a:hover{
+color:#fff;
+}
+
+.footer0 .row1 ul{
+width:100%;
+}
+
+.footer0 .row1 ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer0 .row1 a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer0{
+text-align:left;
+padding:5%;
+}
+.footer0 .row1 ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer0 .row1 a i{
+margin:0% 3%;
+}
+}

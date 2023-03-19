@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    align-items: center;
+
+}
+
+.imagecenter{
+    width: 50%;
+    margin-right: 4rem;
+    flex-direction: column;
+    min-width: 50px;
+    max-width: 300px;
+}
+
+.historia{
+    width: 50%;
+    margin-top: 0;
+
+}
+
+
+.bienvenidos {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ffffff, #242424);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2{
+    background: -webkit-linear-gradient(#ffffff, #242424);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.introduccion{
+    color: rgba(216, 216, 216, 0.548);
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+li{
+    margin-top: 1rem;
+    font-size: 1.25rem
+}
+
+.boton a{
+   color: white;
+   width: 100%;
+
+}
+.boton{
+    width: 100%;
+}
